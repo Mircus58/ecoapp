@@ -30,3 +30,6 @@ jobs:
           branch: gh-pages
           folder: dist/ecoapp/browser
           clean: true
+          force_orphan: true 
+
+      
