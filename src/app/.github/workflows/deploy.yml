@@ -22,7 +22,12 @@ jobs:
         run: npm install
 
       - name: Build Angular app
-        run: npm run build -- --base-href=/ecoapp/
+        run: |
+          npm run build -- --base-href=/ecoapp/
 
       - name: Deploy to GitHub Pages
-        run: npx angular-cli-ghpages --dir=dist/ecoapp --no-silent
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: dist/ecoapp/browser
+          clean: true

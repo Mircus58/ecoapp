@@ -4,9 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "build": "ng build",
+  "deploy": "ng build --base-href=/ecoapp/ && npx angular-cli-ghpages --dir=dist/ecoapp/browser"
   },
   "private": true,
   "dependencies": {
