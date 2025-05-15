@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Setup Node.js
+      - name: Setup Node.js 18
         uses: actions/setup-node@v3
         with:
           node-version: '18'
@@ -31,4 +31,4 @@ jobs:
           publish_dir: ./dist/ecoapp/browser
           publish_branch: gh-pages
           force_orphan: true
-          clean: true
+          keep_files: false
