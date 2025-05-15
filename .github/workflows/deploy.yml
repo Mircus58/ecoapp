@@ -1,4 +1,4 @@
-name: 🚀 Deploy Angular App to GitHub Pages
+name: Deploy Angular App to GitHub Pages
 
 on:
   push:
@@ -10,24 +10,25 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Checkout repository
-        uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      - name: 🧰 Setup Node.js 18
-        uses: actions/setup-node@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
           node-version: '18'
 
-      - name: 📦 Install dependencies
+      - name: Install dependencies
         run: npm ci
 
-      - name: 🏗️ Build Angular app (with base-href /ecoapp/)
+      - name: Build Angular app
         run: npm run build -- --base-href=/ecoapp/
 
-      - name: 🚚 Deploy to GitHub Pages (branch gh-pages)
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          branch: gh-pages
-          folder: dist/ecoapp/browser
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist/ecoapp/browser
+          publish_branch: gh-pages
+          force_orphan: true
           clean: true
-
