@@ -7,13 +7,14 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build": "ng build",
-  "deploy": "ng build --base-href=/ecoapp/ && npx angular-cli-ghpages --dir=dist/ecoapp/browser"
+    "deploy": "ng build --base-href=/ecoapp/ && npx angular-cli-ghpages --dir=dist/ecoapp/browser"
   },
   "private": true,
   "dependencies": {
     "@angular/common": "^19.2.0",
     "@angular/compiler": "^19.2.0",
     "@angular/core": "^19.2.0",
+    "@angular/fire": "^19.1.0",
     "@angular/forms": "^19.2.0",
     "@angular/platform-browser": "^19.2.0",
     "@angular/platform-browser-dynamic": "^19.2.0",

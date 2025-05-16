@@ -1,6 +1,6 @@
 {
-  "name": "EcoApp - Ecomotrice Genève SA",
-  "short_name": "EcoApp",
+  "name": "EcoApp - L'application officiel d'Ecomotrice",
+  "short_name": "EcoMo",
   "id": "app.web.ecomotrice",
   "start_url": "/ecoapp/",
   "scope": "/ecoapp/",
