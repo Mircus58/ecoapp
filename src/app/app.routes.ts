@@ -7,14 +7,20 @@ import { EmployeeGuard } from './guards/auth.guard';
 export const routes: Routes = [
   {
     path: '',
-    redirectTo: 'auth/login',
-    pathMatch: 'full',
+    loadComponent: () =>
+      import('./pages/home/home.component').then(m => m.HomeComponent),
   },
   {
     path: 'auth/login',
     loadComponent: () =>
-      import('./pages/home/home.component').then(m => m.HomeComponent),
+      import('./pages/auth/login/login.component').then(m => m.LoginComponent),
   },
+  {
+    path: 'auth/register',
+    loadComponent: () =>
+      import('./pages/auth/register/register.component').then(m => m.RegisterComponent),
+  },
+  
   {
     path: 'admin/dashboard',
     canActivate: [AdminGuard],

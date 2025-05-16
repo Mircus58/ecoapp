@@ -1,0 +1,23 @@
+<ion-content class="ion-padding">
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <h2>Connexion</h2>
+
+    <ion-item>
+      <ion-label position="floating">Email ou nom d’utilisateur</ion-label>
+      <ion-input type="text" formControlName="identifier" autocomplete="username"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label position="floating">Mot de passe</ion-label>
+      <ion-input type="password" formControlName="password" autocomplete="current-password"></ion-input>
+    </ion-item>
+
+    <ion-button expand="block" class="ion-margin-top" type="submit">
+      Se connecter
+    </ion-button>
+
+    <ion-button expand="block" fill="clear" [routerLink]="['/auth/register']">
+      Pas encore inscrit ? Créer un compte
+    </ion-button>
+  </form>
+</ion-content>
