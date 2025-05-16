@@ -1,9 +1,46 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './pages/home/home.component';
+
+// Guards
+import { AdminGuard } from './guards/admin.guard';
+import { EmployeeGuard } from './guards/auth.guard';
 
 export const routes: Routes = [
   {
     path: '',
-    component: HomeComponent
+    redirectTo: 'auth/login',
+    pathMatch: 'full',
+  },
+  {
+    path: 'auth/login',
+    loadComponent: () =>
+      import('./pages/home/home.component').then(m => m.HomeComponent),
+  },
+  {
+    path: 'admin/dashboard',
+    canActivate: [AdminGuard],
+    loadComponent: () =>
+      import('./pages/admin/dashboard/dashboard.component').then(m => m.DashboardComponent),
+  },
+  {
+    path: 'admin/calendar/:userId',
+    canActivate: [AdminGuard],
+    loadComponent: () =>
+      import('./pages/admin/calendar-management/calendar-management.component').then(m => m.CalendarManagementComponent),
+  },
+  {
+    path: 'employee/calendar',
+    canActivate: [EmployeeGuard],
+    loadComponent: () =>
+      import('./pages/employee/calendar/calendar.component').then(m => m.CalendarComponent),
+  },
+  {
+    path: 'employee/photo',
+    canActivate: [EmployeeGuard],
+    loadComponent: () =>
+      import('./pages/employee/photo/photo.component').then(m => m.PhotoComponent),
+  },
+  {
+    path: '**',
+    redirectTo: 'auth/login',
   }
 ];
