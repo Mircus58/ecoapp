@@ -1,0 +1,141 @@
+{
+  "configVersion": 1,
+  "timestamp": 1747430288017,
+  "index": "/ecoapp/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/ecoapp/chunk-2WZPH4LJ.js",
+        "/ecoapp/chunk-3PCK376T.js",
+        "/ecoapp/chunk-4WFVMWDK.js",
+        "/ecoapp/chunk-5AUDRUWC.js",
+        "/ecoapp/chunk-5FZ7CLL4.js",
+        "/ecoapp/chunk-5TSG52GP.js",
+        "/ecoapp/chunk-5ZG7SN2I.js",
+        "/ecoapp/chunk-7D2EH4XU.js",
+        "/ecoapp/chunk-C4WTXNZA.js",
+        "/ecoapp/chunk-C5RQ2IC2.js",
+        "/ecoapp/chunk-D7YYRZS5.js",
+        "/ecoapp/chunk-HVDZB5Z3.js",
+        "/ecoapp/chunk-J5VTFQ2I.js",
+        "/ecoapp/chunk-K3GX4FC7.js",
+        "/ecoapp/chunk-KMPAVET6.js",
+        "/ecoapp/chunk-L3QQC75S.js",
+        "/ecoapp/chunk-LRMHXUGF.js",
+        "/ecoapp/chunk-LSGGBWND.js",
+        "/ecoapp/chunk-MMIXVVWR.js",
+        "/ecoapp/chunk-NE76QGZZ.js",
+        "/ecoapp/chunk-NMYJD6OP.js",
+        "/ecoapp/chunk-SEDQEPVQ.js",
+        "/ecoapp/chunk-SV7S5NYR.js",
+        "/ecoapp/chunk-TXFQ4K5X.js",
+        "/ecoapp/chunk-UGDA7MAW.js",
+        "/ecoapp/chunk-UOGXNJHB.js",
+        "/ecoapp/chunk-VJ722CYP.js",
+        "/ecoapp/chunk-VNYDC4M7.js",
+        "/ecoapp/chunk-XV247VAB.js",
+        "/ecoapp/chunk-YHXYT522.js",
+        "/ecoapp/chunk-YS5OBGJJ.js",
+        "/ecoapp/chunk-ZEQ3D4UK.js",
+        "/ecoapp/favicon.ico",
+        "/ecoapp/index.html",
+        "/ecoapp/main-4IN46CO7.js",
+        "/ecoapp/manifest.webmanifest",
+        "/ecoapp/polyfills-FFHMD2TL.js",
+        "/ecoapp/styles-LUF7REVR.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/ecoapp/icons/icon-128x128.png",
+        "/ecoapp/icons/icon-144x144.png",
+        "/ecoapp/icons/icon-152x152.png",
+        "/ecoapp/icons/icon-192x192.png",
+        "/ecoapp/icons/icon-512x512.png",
+        "/ecoapp/icons/icon-72x72.png",
+        "/ecoapp/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/ecoapp/chunk-2WZPH4LJ.js": "f90a66208ace7970c71f7b8ca46f0251fe22c0d7",
+    "/ecoapp/chunk-3PCK376T.js": "4adcde98fd58f44194b91a2c84f9d76e97a70530",
+    "/ecoapp/chunk-4WFVMWDK.js": "5b6d47107e58373ea3dc79e4e6878406e21505e8",
+    "/ecoapp/chunk-5AUDRUWC.js": "f6ec30044cc78f18734625212646ddb5e4c844fa",
+    "/ecoapp/chunk-5FZ7CLL4.js": "84ed547ed954ca1e9af8457406af4898d870503a",
+    "/ecoapp/chunk-5TSG52GP.js": "f737f83fa42daa825e6ed7823ec653913715391d",
+    "/ecoapp/chunk-5ZG7SN2I.js": "be4021cdf931c5591cc992abd2c8f7f7ddb73653",
+    "/ecoapp/chunk-7D2EH4XU.js": "84ca8cdbe19b640bd46c17375d218993237828e0",
+    "/ecoapp/chunk-C4WTXNZA.js": "603d0815ea331b7b69c1f1b27bb92dad5ab71c0b",
+    "/ecoapp/chunk-C5RQ2IC2.js": "e04375ce73344ebf6057a814b6d3be1852c7d5c7",
+    "/ecoapp/chunk-D7YYRZS5.js": "0aab176376718d14610eb0897798691c9f729a1f",
+    "/ecoapp/chunk-HVDZB5Z3.js": "4783730d2089f3ccc3f71f18739fa040ad3f880a",
+    "/ecoapp/chunk-J5VTFQ2I.js": "424d65ee43d7e532cfe621c1b41b0b97d3d78a74",
+    "/ecoapp/chunk-K3GX4FC7.js": "10fa59a2cadeb1165a4bb96731185015b5f560ed",
+    "/ecoapp/chunk-KMPAVET6.js": "c46967337c1ab4b9240a90b01eec9e28510850a8",
+    "/ecoapp/chunk-L3QQC75S.js": "03f3e535de443851e3870c09c206e27f80492d88",
+    "/ecoapp/chunk-LRMHXUGF.js": "b104023db57d32a8c99eaa960e4f6213bb569436",
+    "/ecoapp/chunk-LSGGBWND.js": "e860d764dc46e4a4667d7fad0abc3421275070a0",
+    "/ecoapp/chunk-MMIXVVWR.js": "51b6b2d85a838b239aa4a478848204ce2352de4b",
+    "/ecoapp/chunk-NE76QGZZ.js": "daa25ff262123d614d9784cb345f56cb6f877529",
+    "/ecoapp/chunk-NMYJD6OP.js": "0175118cb5ac5fb567dcfbf6a8bcb81ace8edf1a",
+    "/ecoapp/chunk-SEDQEPVQ.js": "fdf608a3800bd30aeab0dc22d38311d5d81ebfa9",
+    "/ecoapp/chunk-SV7S5NYR.js": "9a4312a44cc8ab8573488a48a18c01a6bb352c6b",
+    "/ecoapp/chunk-TXFQ4K5X.js": "7de360d61930426e3868d19c2aad21cffe8b0322",
+    "/ecoapp/chunk-UGDA7MAW.js": "ca3e066c73a871c4dda0021cd0555e7efc8a0203",
+    "/ecoapp/chunk-UOGXNJHB.js": "90ad219de97e1da642f3bd0a302e9154930cf763",
+    "/ecoapp/chunk-VJ722CYP.js": "33d60da794d577d607bcf4690609da16e08fdbd3",
+    "/ecoapp/chunk-VNYDC4M7.js": "86057018fb94ac157b7dd77d2b95d87fdc3ebdca",
+    "/ecoapp/chunk-XV247VAB.js": "de668a842b87ac7961a03e21d854e11279b00064",
+    "/ecoapp/chunk-YHXYT522.js": "5bbce14212127b0938988c9910cbefa49adc0905",
+    "/ecoapp/chunk-YS5OBGJJ.js": "69eedb951d805850880158790cfa9785c0b66a5a",
+    "/ecoapp/chunk-ZEQ3D4UK.js": "5985b80d184582155418bbaeef22d00214b47591",
+    "/ecoapp/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "/ecoapp/icons/icon-128x128.png": "a5ae1a064b1831f687d254b762b73dfbf6604b4b",
+    "/ecoapp/icons/icon-144x144.png": "910343cb84f716b499737a9d7c2933dfd4eb9b44",
+    "/ecoapp/icons/icon-152x152.png": "f8ac04fb1bd8b628c33fde80d3b7b1ccb3f4b5d1",
+    "/ecoapp/icons/icon-192x192.png": "afda09982799467dacb7e881bca58d90c29ea628",
+    "/ecoapp/icons/icon-512x512.png": "f8f943b44eec4155082d1ff46d13e6831a00142b",
+    "/ecoapp/icons/icon-72x72.png": "018d0aff2082bb01fc0bbc19cd04e521cd615c37",
+    "/ecoapp/icons/icon-96x96.png": "cacf3276b153547937b44c076c482056de301b6e",
+    "/ecoapp/index.html": "5daa86bbe8a53a859520b72cbf3f5b9d5bd4eb9f",
+    "/ecoapp/main-4IN46CO7.js": "b020ef557392f8574814afb4c59993ffb6df86ae",
+    "/ecoapp/manifest.webmanifest": "8598dc90cbae0dc343e1b4f59a7d2ce5919bd744",
+    "/ecoapp/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
+    "/ecoapp/styles-LUF7REVR.css": "8a9a7e3107995610f0c99aafd9c9f707f5196fcc"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

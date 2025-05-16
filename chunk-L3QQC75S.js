@@ -1,0 +1,2 @@
+import{Ca as a,Ma as t,Na as m,Wa as o}from"./chunk-3PCK376T.js";import"./chunk-D7YYRZS5.js";var i=class n{constructor(){}ngOnInit(){}static \u0275fac=function(e){return new(e||n)};static \u0275cmp=a({type:n,selectors:[["app-calendar-management"]],decls:2,vars:0,template:function(e,p){e&1&&(t(0,"p"),o(1,` calendar-management works!
+`),m())},encapsulation:2})};export{i as CalendarManagementComponent};
