@@ -5,7 +5,7 @@
   "start_url": "/ecoapp/",
   "scope": "/ecoapp/",
   "display": "standalone",
-  "background_color": "red",
+  "background_color": "transparent",
   "theme_color": "#182449",
   "description": "L'application officielle d'Ecomotrice Genève SA. Visualisez votre planning, suivez vos livraisons, et discutez avec l’équipe.",
   "lang": "fr-CH",
